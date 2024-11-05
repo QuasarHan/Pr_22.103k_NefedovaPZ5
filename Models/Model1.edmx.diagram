@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1360df5f329e4ca0b8b3cb44480320e3" Name="Diagram1" ZoomLevel="28">
+        <EntityTypeShape EntityType="PhotocentreModel.client" Width="1.5" PointX="12.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Diler" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.infotovari" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Infouslugi" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Material" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Ostatki_fototovarov" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Raspisanie" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Sostoyanie_zakaza" Width="1.5" PointX="8.25" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Sotrudniki" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.SpisokPhotoTovarov" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.SpisokPhotoUslug" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Vhod" Width="1.5" PointX="10.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotocentreModel.Zakaz" Width="1.5" PointX="10.5" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="PhotocentreModel.FK_client_Vhod" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_client_Zakaz" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Zakaz_client" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_infotovari_Diler" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Material_Diler" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_SpisokPhotoTovarov_infotovari" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Infouslugi_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Infouslugi_Sotrudniki" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_SpisokPhotoUslug_Infouslugi" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Ostatki_fototovarov_SpisokPhotoTovarov" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Sotrudniki_Raspisanie" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Zakaz_Sostoyanie_zakaza" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Sotrudniki_Vhod" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Zakaz_SpisokPhotoTovarov" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotocentreModel.FK_Zakaz_SpisokPhotoUslug" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
